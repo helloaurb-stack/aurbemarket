@@ -103,3 +103,25 @@ text-align:center;
 padding:20px;
 margin-top:30px;
 }
+.search-box{
+  text-align:center;
+  margin:20px;
+}
+
+.search-box input{
+  width:60%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:25px;
+  font-size:16px;
+}
+
+.search-box button{
+  padding:12px 20px;
+  background:#ff4d6d;
+  color:white;
+  border:none;
+  border-radius:25px;
+  cursor:pointer;
+  margin-left:10px;
+}
