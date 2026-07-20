@@ -21,6 +21,33 @@ font-weight:bold;
 }
 
 .hero{
+background:linear-gradient(135deg,#ff4d6d,#ff8fab);
+color:#fff;
+padding:80px 20px;
+text-align:center;
+border-radius:0 0 20px 20px;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.hero button{
+background:#fff;
+color:#ff4d6d;
+padding:12px 30px;
+border:none;
+border-radius:30px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
 background:#ff6b6b;
 color:white;
 text-align:center;
