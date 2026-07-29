@@ -86,3 +86,40 @@ font-weight:bold;
 .hero button:hover{
 background:#fff;
 }
+.categories{
+padding:60px 20px;
+text-align:center;
+background:#181818;
+}
+
+.categories h2{
+font-size:36px;
+color:gold;
+margin-bottom:30px;
+}
+
+.category-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.category-box{
+background:#222;
+border:2px solid gold;
+border-radius:15px;
+padding:30px;
+width:260px;
+transition:0.3s;
+}
+
+.category-box:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px gold;
+}
+
+.category-box h3{
+color:gold;
+margin:15px 0;
+}
